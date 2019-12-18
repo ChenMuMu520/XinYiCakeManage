@@ -1,0 +1,188 @@
+.nav{
+  width: 15%;
+  height: 722px;
+  background:rgb(92, 206, 194);
+  color:white;
+  float: left;
+  .logo{
+    a{
+      display: inline-block;
+      margin:0 43px;
+      color:white;
+      img{
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+  .user{
+    overflow: hidden;
+    padding:0 0 0 55px;
+    height: 52px;
+    margin:20px 0;
+    i{
+      font-size:24px ;
+      float:left;
+      line-height: 24px;
+    }
+    ul{
+      font-size:20px;
+      float:left;
+      margin-left: 25px;
+      text-align:center;
+      &:hover{
+        li{
+          display: block;
+        }
+      }
+      li{
+        font-size:18px;
+        margin-top: 5px;
+        display: none;
+      }
+    }
+  }
+  .options{
+    font-size:23px;
+    text-align:center;
+    margin-top:20px;
+    li{
+      margin:30px 0 30px 0;
+      i{
+        font-size:15px ;
+        margin-left: 10px;
+      }
+      &:hover{
+        li{
+          display: block;
+
+        }
+      }
+      a{
+        display: inline-block;
+        color:white;
+
+      }
+      ul{
+        li{
+          display: none;
+          margin:10px 0 10px 0;
+          font-size:19px;
+          a{
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+.container{
+  width: 75%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 25px;
+  position: relative;
+
+  .layui-breadcrumb{
+    text-align: left;
+
+    cite{
+      color: #FF5722;
+    }
+
+    a{
+      color: #1E9FFF;
+      font-size: 18px;
+    }
+  }
+
+  .select{
+    min-width: 950px;
+    height: 40px;
+    margin-top: 30px;
+
+    .screen{
+      width: 40%;
+      margin-left: 20px;
+      text-align: left;
+
+      label{
+        font-size: 16px;
+        color: #777;
+      }
+    }
+
+    .search{
+      width: 40%;
+      text-align: right;
+      margin-right: 60px;
+
+      button{
+        vertical-align: top;
+      }
+    }
+    input{
+      width: 200px;
+      display: inline-block;
+    }
+  }
+
+  .layui-table{
+    margin-top: 30px;
+    text-align:center;
+    min-width: 950px;
+
+    thead{
+      tr{
+        th{
+          text-align:center;
+        }
+      }
+    }
+    td{
+      .del{
+        margin-left: 2px;
+      }
+    }
+  }
+
+  .bottom{
+    text-align: left;
+    margin-top: 20px;
+  }
+  .btn-group{
+    width: 20%;
+    min-width: 250px;
+  }
+
+  .page-num{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+
+    #total{
+      font-size: 14px;
+      line-height: 30px;
+      height: 30px;
+      color: #777;
+    }
+
+    #page{
+      height: 34px;
+      margin-left: 20px;
+
+      div{
+        margin-top: 0;
+
+        a{
+          margin-bottom: 0;
+        }
+
+        span{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+

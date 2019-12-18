@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../util/layui/css/layui.css" type="text/css">
+    <link rel="stylesheet" href="../css/UserDetails.css" type="text/css">
+    <script type="text/javascript" src="../util/layui/layui.js"></script>
+    <script type="text/javascript" src="../js/UserDetails.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <header class="nav">
+        <div class="logo">
+            <a href="javascript:;"><img src="images/wwq-img/logo.png" alt=""></a>
+        </div>
+        <div class="user">
+            <i class="layui-icon">&#xe66f;</i>
+            <ul>
+                xinyi
+                <li>退出</li>
+            </ul>
+        </div>
+        <ul class="options">
+            <li>
+                <a href="javascript:;">商品管理<i class="layui-icon">&#xe61a;</i></a>
+                <ul>
+                    <li><a href="javascript:;">商品上架</a></li>
+                    <li><a href="javascript:;">在售商品</a></li>
+                    <li><a href="javascript:;">库存商品</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:;">订单管理<i class="layui-icon">&#xe61a;</i></a></li>
+            <li><a href="javascript:;">用户中心<i class="layui-icon">&#xe61a;</i></a></li>
+        </ul>
+    </header>
+    <section class="container fl">
+        <div class="layui-breadcrumb">
+            <a href="">首页</a>
+            <a href="">用户中心</a>
+            <a><cite>用户详情</cite></a>
+        </div>
+        <div class="select">
+            <div class="screen fl">
+                <label for="date">根据注册日期筛选：</label>
+                <input type="text" class="layui-input" id="date">
+            </div>
+            <div class="search fr">
+                <input type="text" name="" placeholder="请输入搜索内容" autocomplete="off" class="layui-input"><button type="button" class="layui-btn">搜索</button>
+            </div>
+        </div>
+        <table class="layui-table">
+            <colgroup>
+                <col width="55">
+                <col width="115">
+                <col width="115">
+                <col width="115">
+                <col width="125">
+                <col width="115">
+                <col width="175">
+                <col width="90">
+                <col width="100">
+                <col width="135">
+            </colgroup>
+            <thead>
+            <tr>
+                <th></th>
+                <th>用户名</th>
+                <th>昵称</th>
+                <th>手机号</th>
+                <th>密码</th>
+                <th>生日</th>
+                <th>注册时间</th>
+                <th>账号等级</th>
+                <th>账号积分</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>18728193982</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>1997-08-12</td>
+                    <td>2019-12-18 11:12:34</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>木木</td>
+                    <td>沐沐</td>
+                    <td>18728193982</td>
+                    <td>cl199781</td>
+                    <td>19970812</td>
+                    <td>2019-12-17</td>
+                    <td>v12</td>
+                    <td>200</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-normal change">编辑</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-warm del" >删除</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="bottom">
+            <div class="btn-group fl">
+                <div class="layui-btn layui-btn-radius">全选</div>
+                <div class="layui-btn layui-btn-radius layui-btn-normal">反选</div>
+                <div class="layui-btn layui-btn-radius layui-btn-danger">删除</div>
+            </div>
+            <div class="page-num fl">
+                <div id="total" class="fl">共有<span>8</span>条数据</div>
+                <div id="page" class="fl"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    layui.use(['table','layer','element','laypage','laydate'], function(){
+        var table = layui.table;
+        var layer = layui.layer;
+        var element = layui.element;
+        var laypage = layui.laypage;
+        var laydate = layui.laydate;
+
+        laypage.render({
+            elem: 'page', //注意，这里的 test1 是 ID，不用加 # 号
+            count: 60, //数据总数，从服务端得到
+            limit:8,
+            groups: 4,
+        });
+
+        laydate.render({
+            elem: '#date', //指定元素
+            trigger: 'click',
+        });
+
+    });
+</script>
+</html>
